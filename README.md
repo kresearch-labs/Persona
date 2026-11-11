@@ -10,8 +10,9 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-b5651d?style=for-the-badge)](pyproject.toml)
 [![CPU only](https://img.shields.io/badge/trains%20on-a%20CPU-b5651d?style=for-the-badge)](#-quick-start)
 [![Trained pblocks](https://img.shields.io/badge/🤗%20pblocks-Hugging%20Face-ffcc4d?style=for-the-badge)](https://huggingface.co/datasets/Kresearch/persona-pblocks)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24145734.svg)](https://doi.org/10.5281/zenodo.24145734)
 
-[**Quick start**](#-quick-start) · [**How it works**](#-how-it-works) · [**Real problems**](#-real-problems-it-solves) · [**Keel Guard**](#keel-guard) · [**Results**](#-results) · [**Use it in your agent**](#-use-it-in-your-agent) · [**Evidence**](https://github.com/kresearch-labs/persona-evidence)
+[**Quick start**](#-quick-start) · [**How it works**](#-how-it-works) · [**Real problems**](#-real-problems-it-solves) · [**Keel Guard**](#keel-guard) · [**Results**](#-results) · [**Use it in your agent**](#-use-it-in-your-agent) · [**Evidence**](https://github.com/kresearch-labs/persona-evidence) · [**Paper**](https://doi.org/10.5281/zenodo.24145734)
 
 <br>
 
@@ -167,6 +168,21 @@ Stores are read from `AURA_PBSTORES` (or `PBLOCKS_STORES`, or `./pblock-stores`)
 ## 🤝 Reproduce, extend, contribute
 
 Every experiment so far ran on one consumer PC. We'd love to see them on proper infrastructure: rerun the paired SWE-bench test with stronger models, rerun the five-field test with a significance test, keep training Keel Guard, and grow pblocks in new domains. Results from others — whatever they show — will be linked here. Issues and pull requests are welcome.
+
+## 📝 Cite
+
+The paper: *Persona: A Growable Personality Layer That Turns Any Agent Into a Companion That Learns You* — [https://doi.org/10.5281/zenodo.24145734](https://doi.org/10.5281/zenodo.24145734)
+
+```bibtex
+@misc{king2026persona,
+  title     = {Persona: A Growable Personality Layer That Turns Any Agent Into a Companion That Learns You},
+  author    = {King},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24145734},
+  url       = {https://doi.org/10.5281/zenodo.24145734}
+}
+```
 
 ## 📄 License
 
