@@ -77,6 +77,11 @@ A pblock can ship as `<name>_embeddings.npy` + `<name>_meta.jsonl` instead of
 one large JSONL file — about 79% smaller, loaded in seconds, with the same
 results. The store reads either form; `store.pack()` writes the packed one.
 
+## Trained pblocks and evidence
+
+- [Kresearch/persona-pblocks](https://huggingface.co/datasets/Kresearch/persona-pblocks) — trained pblocks in packed form: Keel Guard (the security pblock) and the stores used in the paper's runs
+- [kresearch-labs/persona-evidence](https://github.com/kresearch-labs/persona-evidence) — the paper's runs, official grade reports, test sets, scorers, and LaTeX source
+
 ## Learn more
 
 - [`docs/HOW-PBLOCKS-WORK.md`](docs/HOW-PBLOCKS-WORK.md) — how Persona and its pblocks work, simply
