@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+stores/
+weights/
+.emb_cache/
+emb_cache/
+*_store.jsonl
+*_heads.json
+train_*.log

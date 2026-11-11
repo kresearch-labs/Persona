@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "persona"
+version = "0.1.0"
+description = "Persona: experience for AI agents, kept apart from the model: trained, inspectable personas (pblocks) that judge, brief, and learn from confirmed outcomes."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "onnxruntime>=1.17",
+    "tokenizers>=0.15",
+    "pyyaml>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/kresearch-labs/persona"
+
+[tool.hatch.build.targets.wheel]
+packages = ["persona"]
