@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Persona: experience for AI agents, kept apart from the model: trained, inspectable personas (pblocks) that judge, brief, and learn from confirmed outcomes."
 readme = "README.md"
 license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
 requires-python = ">=3.10"
 dependencies = [
     "numpy>=1.26",
