@@ -6,7 +6,7 @@
 
 **What worked, what failed, and why — kept as plain data you own, cited in every judgment,<br>grown from real outcomes, and still there when you change the model.**
 
-[![License](https://img.shields.io/badge/license-MIT-b5651d?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-b5651d?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-b5651d?style=for-the-badge)](pyproject.toml)
 [![CPU only](https://img.shields.io/badge/trains%20on-a%20CPU-b5651d?style=for-the-badge)](#-quick-start)
 [![Trained pblocks](https://img.shields.io/badge/🤗%20pblocks-Hugging%20Face-ffcc4d?style=for-the-badge)](https://huggingface.co/datasets/Kresearch/persona-pblocks)
@@ -186,4 +186,4 @@ The paper: *Persona: A Growable Personality Layer That Turns Any Agent Into a Co
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE).
+Apache 2.0 — see [LICENSE](LICENSE).
