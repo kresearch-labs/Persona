@@ -18,7 +18,7 @@ name = os.path.splitext(os.path.basename(a.template))[0]
 log = os.path.join(a.out_dir, f"train_{name}.log")
 os.makedirs(a.out_dir, exist_ok=True)
 
-cmd = [sys.executable, "-m", "persona.train_pblock",      # the Python running this
+cmd = [sys.executable, "-m", "persona.train_pblock",      # The Python running this
        "--template", a.template, "--out-dir", a.out_dir]
 if a.corpus:
     cmd += ["--corpus", a.corpus]

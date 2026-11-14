@@ -221,7 +221,7 @@ class Orchestrator:
                         f"fitted verdict waits for the full gate")
             input_side.append(PersonaInputVerdict(
                 persona=name, verdict=verdict if verdict != "sideways" or conf > 0.5
-                else "on_task",  # V0: relevance gate, refine in harness
+                else "on_task",  # Relevance gate, refine in harness
                 confidence=float(max(conf, j["confidence"])),
                 enhancements=enhancements, note=note))
         # resolve conflicts by precedence
@@ -250,8 +250,11 @@ class Orchestrator:
         lines = [
             "### TASK CONTEXT",
             f"Current task: {task_summary}",
-            "Work ONLY from the verified context below. If something is not "
-            "here, say so explicitly instead of inventing it.",
+            # The lessons are reference, not a wall: a follow-up turn's facts
+            # are in the conversation, the files and the tool results
+            "The lessons below are reference from earlier work. The conversation, "
+            "the files and tool results come first; if a fact is in none of them, "
+            "say so instead of inventing it.",
             "",
         ]
         if blocked:
@@ -297,6 +300,8 @@ class Orchestrator:
                     dones.append(f"{fr}")
                 else:
                     pats.append(f"{fr} — {ok}")
+            if not (pats or warns or dones):
+                continue  # A seat with nothing left to say gets no empty section
             lines.append(f"### GROUND FROM {v['persona'].upper()} PERSONA")
             lines += [f"- {h}" for h in pats]
             if warns:
@@ -310,7 +315,8 @@ class Orchestrator:
         # spec v3 item 6: briefing, not bossing; keep the citation rule.
         lines += ["### RULES", "1. Use the ground above as reference; cite "
                               "when a claim is influenced by it.",
-                  "2. If a required fact is missing, say 'NOT IN MY CONTEXT'.",
+                  "2. If a required fact is in neither the ground nor the "
+                  "conversation, files or tool results, say so.",
                   "3. Cite which ground item each claim rests on."]
         # spec v3 item 1+2: diary entry + stamp. framing ids are recovered
         # from the enhancement prefixes "[id] ..." set in panel_input_review.

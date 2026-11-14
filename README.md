@@ -163,6 +163,7 @@ Stores are read from `AURA_PBSTORES` (or `PBLOCKS_STORES`, or `./pblock-stores`)
 - [`docs/TRAINING-PBLOCKS.md`](docs/TRAINING-PBLOCKS.md) and [`docs/CORPUS_TRAINING_METHODOLOGY.md`](docs/CORPUS_TRAINING_METHODOLOGY.md) — growing a real pblock
 - [`docs/ENGINE_README.md`](docs/ENGINE_README.md) — the making flow
 - [`PANEL-PROFILE-RULE.md`](PANEL-PROFILE-RULE.md) — sizing the briefing to the model
+- [`variants/`](variants/README.md) — pblocks used differently: the personal pblock, Keel Guard
 - [Trained pblocks](https://huggingface.co/datasets/Kresearch/persona-pblocks) · [Evidence](https://github.com/kresearch-labs/persona-evidence)
 
 ## 🤝 Reproduce, extend, contribute
