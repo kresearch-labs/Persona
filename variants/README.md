@@ -1,5 +1,22 @@
 # Pblock variants
 
+## 💡 Why variants exist
+
+> [!NOTE]
+> **One kind of memory can't do every job.**
+
+| The job | Needs before trusting a lesson | Is needed |
+|---|---|---|
+| 🔧 Remember what worked in the work | proof from another task | before each task |
+| 👤 Learn how a person likes to work | the person's own words | always |
+| 🛡️ Stop hostile requests | gates that pass after a refit | before every action |
+
+Three separate products would mean three engines, three formats and three ways to fail. Persona keeps **one base** and lets a variant change only how it is used:
+
+- ✅ every improvement to the base helps every variant
+- ✅ a new job is a new page, not a new system
+
+
 A pblock is not only one thing. The rest of this repository describes the
 **normal** pblock: before a task it briefs the model with the closest cases —
 what worked, what failed — and after the task it learns from what actually

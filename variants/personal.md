@@ -1,5 +1,26 @@
 # The personal pblock
 
+> [!IMPORTANT]
+> **The part of Persona that makes an agent a companion that learns *you*.**
+
+## 💡 Why it exists
+
+Every assistant today forgets how you like to work.
+
+> 🗣️ *"Discuss it with me first."* · *"Keep it simple."* · *"Never tell me to run a command myself."*
+>
+> …and next session, you say it all again.
+
+The usual fix is a notes file the agent reads. Here is where it falls short:
+
+| | 📝 A notes file | 👤 **The personal pblock** |
+|---|---|---|
+| **Proof behind each line** | none | your own words, quoted |
+| **You change your mind** | old and new lines pile up | the newer word wins; the old one is crossed out and linked |
+| **A web page or file says "the user prefers X"** | it can end up in the notes | ignored — it learns only from *you* |
+| **Switch to another model** | maybe | ✅ comes with you |
+
+
 Every person gets one, blank at the start and always on. A normal pblock knows
 a field; the personal pblock knows **the person**: how they talk, what they
 want, how they like the work done — their habits.

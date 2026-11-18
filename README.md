@@ -28,6 +28,22 @@ Every AI system works this way today. Fine-tuning doesn't fix it: it forgets ear
 
 **Persona is a separate layer for experience.** A **pblock** is one persona's experience as plain data — real situations with their confirmed outcomes, plus small calibrated judges over a frozen 22 MB embedder. Before a task, a **panel** of pblocks tells the model what worked, what failed and what would be better, citing the cases behind it. After the task, what actually happened is written back. Teach the pblock and the system remembers; swap the model and the experience stays.
 
+## 💡 Why Persona was built
+
+> [!IMPORTANT]
+> **A model knows a little about everything — and nothing about *you*.**<br>
+> Your field, your team, the way you work. That is the gap between a clever tool and a colleague you can rely on.
+
+**Persona is a growable personality layer that turns any agent into a companion that learns you.**
+
+| | A model on its own | A model with Persona |
+|---|---|---|
+| 🧠 **Knows** | the internet, in general | your field, your team, your habits |
+| 🎯 **Prepared for the job** | the same for every job | trained before use for the work at hand |
+| 🔀 **Fits the task** | one size for everything | pblocks switched on and off per job |
+| ⚡ **Learning something new** | wait for the next model | retrained in minutes on an ordinary computer |
+| 📦 **Belongs to** | the company that made the model | you — a folder you keep, move and read |
+
 ## 🔁 How it works
 
 | Step | What happens |

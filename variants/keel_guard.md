@@ -1,5 +1,26 @@
 # Keel Guard — a judge, not a briefer
 
+> [!IMPORTANT]
+> **An antivirus for models.** It checks every agent request before it runs — and when a new attack appears, you update it like antivirus: add the cases, ship a file.
+
+## 💡 Why it exists
+
+An agent doesn't only talk — it **runs commands, sends messages and changes files**. When someone talks its model into a harmful request, the model's own safety training is the last thing in the way, and new tricks keep getting past it.
+
+| | 🤖 Another safety model | 📜 Fixed rules | 🛡️ **Keel Guard** |
+|---|---|---|---|
+| **A new kind of attack appears** | retrain the model | someone rephrases around it | add its cases, refit on a laptop |
+| **The update** | a new model | new rules, by hand | **a file every copy loads** |
+| **Shows why it decided** | ❌ | ❌ | ✅ cites the matching cases |
+| **Where it sits** | beside the model | beside the model | **outside the model**, before every action |
+
+### 👥 Who it's for
+
+- 💻 a developer whose agent has a terminal
+- 📧 a company whose agent sends email
+- 🏢 a team sharing one hub
+
+
 A normal pblock briefs the model before a task. Keel Guard does a different
 job: it **reads every agent request before it runs** and gives a verdict, with
 the cases behind it.
