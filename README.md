@@ -175,10 +175,17 @@ Stores are read from `AURA_PBSTORES` (or `PBLOCKS_STORES`, or `./pblock-stores`)
 
 ## 📚 Learn more
 
-- [`docs/HOW-PBLOCKS-WORK.md`](docs/HOW-PBLOCKS-WORK.md) — how Persona and its pblocks work, simply
-- [`docs/TRAINING-PBLOCKS.md`](docs/TRAINING-PBLOCKS.md) and [`docs/CORPUS_TRAINING_METHODOLOGY.md`](docs/CORPUS_TRAINING_METHODOLOGY.md) — growing a real pblock
-- [`docs/ENGINE_README.md`](docs/ENGINE_README.md) — the making flow
-- [`PANEL-PROFILE-RULE.md`](PANEL-PROFILE-RULE.md) — sizing the briefing to the model
+Each guide comes in two forms: 🖼️ **easy read** — diagrams and tables, for a quick picture — and 📄 **the original** — the full text, for readers who want every detail and the version agents follow.
+
+| Guide | 🖼️ Easy read | 📄 Original |
+|---|---|---|
+| How Persona and its pblocks work | [easy read](docs/easy/HOW-PBLOCKS-WORK.md) | [`docs/HOW-PBLOCKS-WORK.md`](docs/HOW-PBLOCKS-WORK.md) |
+| Training a real pblock | [easy read](docs/easy/TRAINING-PBLOCKS.md) | [`docs/TRAINING-PBLOCKS.md`](docs/TRAINING-PBLOCKS.md) |
+| How the training corpus is made | [easy read](docs/easy/CORPUS_TRAINING_METHODOLOGY.md) | [`docs/CORPUS_TRAINING_METHODOLOGY.md`](docs/CORPUS_TRAINING_METHODOLOGY.md) |
+| The engine and its files | [easy read](docs/easy/ENGINE_README.md) | [`docs/ENGINE_README.md`](docs/ENGINE_README.md) |
+| Using Persona in your agent | [easy read](docs/easy/INTEGRATION.md) | [`INTEGRATION.md`](INTEGRATION.md) |
+| Sizing the briefing to the model | [easy read](docs/easy/PANEL-PROFILE-RULE.md) | [`PANEL-PROFILE-RULE.md`](PANEL-PROFILE-RULE.md) |
+
 - [`variants/`](variants/README.md) — pblocks used differently: the personal pblock, Keel Guard
 - [Trained pblocks](https://huggingface.co/datasets/Kresearch/persona-pblocks) · [Evidence](https://github.com/kresearch-labs/persona-evidence)
 
